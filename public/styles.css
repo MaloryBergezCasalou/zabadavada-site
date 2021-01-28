@@ -1,0 +1,297 @@
+.app {
+  display: flex;
+}
+
+.sidebarChannel:hover > h3 {
+  color: white;
+  background-color: #2b3f54;
+}
+
+.sidebarChannel > h3 {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  background-color: #17202a;
+  color: gray;
+  cursor: pointer;
+}
+
+.sidebarChannelHash {
+  font-size: 30px;
+  padding: 8px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+  background-color: #17202a;
+  color: white;
+}
+
+.sidebarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #273544;
+  color: white;
+  border-bottom: 3px solid #202e3d;
+}
+
+.sidebarHeader {
+  display: flex;
+  align-items: center;
+}
+
+.sidebarChannels {
+  flex: 1;
+}
+
+.sidebarAddChannel {
+  cursor: pointer;
+}
+
+.sidebarAddChannel:hover {
+  color: white;
+}
+
+.sidebarChannelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2b3f54;
+  color: gray;
+}
+
+.sidebarVoice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #17202a;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebarVoiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebarVoiceIcon {
+  color: #4fb185;
+}
+
+.sidebarVoiceInfo > h3 {
+  color: #4fb185;
+}
+
+.sidebarVoiceInfo > p {
+  font-size: smaller;
+}
+
+.sidebarVoiceIcons > .MuisvgIcon-root {
+  padding: 10px;
+}
+
+.sidebarProfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  background-color: #17202a;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebarProfilInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebarProfilInfo > h3 {
+  color: white;
+}
+
+.sidebarProfilIcons > .MuisvgIcon-root {
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.messageInfo {
+  margin-left: 20px;
+}
+
+.messageTimestamp {
+  color: gray;
+  margin-left: 20px;
+  font-size: x-small;
+}
+
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+}
+
+.chatHeaderHash {
+  color: gray;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.chatHeaderLeft > h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.chatHeaderRight {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  justify-content: space-between;
+}
+
+.chatHeaderRight > .MuisvgIcon-root {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.chatHeaderRight > .MuisvgIcon-root:hover {
+  color: white;
+}
+
+.chatHeaderSearch {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #17202a;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.chatHeaderSearch > input {
+  background: transparent;
+  outline-width: 0;
+  color: white;
+  border: none;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  background-color: #273544;
+  height: 100vh;
+}
+
+.chatMessages {
+  flex: 1;
+}
+
+.chatInput {
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  border-top: 1px solid gray;
+  background-color: #17202a;
+}
+
+.chatInput > form > input {
+  padding: 15px;
+  background: transparent;
+  border: none;
+  width: 100%;
+  outline-width: 0;
+  color: white;
+  font-size: large;
+}
+
+.chatInput > form {
+  flex: 1;
+}
+
+.chatInputButton {
+  display: none;
+}
+
+.chatInputIcons > .MuisvgIcon-root {
+  padding: 5px;
+}
+
+.container {
+  flex-direction: column;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #17202a;
+  height: 100vh;
+  flex: 0.4;
+}
+
+.register {
+  padding: 15px;
+  flex-direction: column;
+  display: flex;
+  background-color: #202e3d;
+  text-align: center;
+}
+
+.login {
+  padding: 15px;
+  flex-direction: column;
+  display: flex;
+  background-color: #202e3d;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  box-sizing: border-box;
+  width: 240px;
+  background: #2b3f54;
+  border: 1px solid #17202a;
+  padding: 10px 20px;
+  color: white;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.loginButton {
+  width: 240px;
+  background: #2b3f54;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.registerButton {
+  width: 240px;
+  background: #2b3f54;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
